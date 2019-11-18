@@ -1,0 +1,121 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "userId": "6031006001",
+      "firstname": {
+        "en": "Patchanan",
+        "th": "พัศชนันท์"
+      },
+      "lastname": {
+        "en": "Jiajirachote",
+        "th": "เจียจิรโชติ"
+      },
+      "status": {
+        "en": "Active",
+        "th": "ปัจจุบัน (ปกติ)"
+      },
+      "avatar": "py8kq2yibN6gz1aaGok-o.jpg"
+    },
+    {
+      "id": 2,
+      "userId": "6031006002",
+      "firstname": {
+        "en": "JIRADAPA",
+        "th": "จิรดาภา"
+      },
+      "lastname": {
+        "en": "INTAJAK",
+        "th": " อินทจักร"
+      },
+      "status": {
+        "en": "Active",
+        "th": "ปัจจุบัน (ปกติ)"
+      },
+      "avatar": "20190304054723ginr46.png"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "school": {
+        "en": "School of Liberal Arts",
+        "th": "ศิลปศาสตร์"
+      },
+      "program": {
+        "en": "Bachelor of Arts Program in English (English)",
+        "th": "ศิลปศาสตรบัณฑิต สาขาวิชาภาษาอังกฤษ (ภาษาอังกฤษ)"
+      },
+      "advisor": {
+        "en": "ArjarnKhanisara Sirisit",
+        "th": "อาจารย์เพียรศิลป์ ปินชัย"
+      }
+    },
+    {
+      "id": 2,
+      "school": {
+        "en": "School of Liberal Arts",
+        "th": "ศิลปศาสตร์"
+      },
+      "program": {
+        "en": "Bachelor of Arts Program in English (English)",
+        "th": "ศิลปศาสตรบัณฑิต สาขาวิชาภาษาอังกฤษ (ภาษาอังกฤษ)"
+      },
+      "advisor": {
+        "en": "ArjarnKhanisara Sirisit",
+        "th": "อาจารย์เพียรศิลป์ ปินชัย"
+      }
+    }
+  ],
+  "news": [
+    {
+      "src": "/news/news_1.jpg"
+    },
+    {
+      "src": "/news/news_2.jpg"
+    },
+    {
+      "src": "/news/news_3.png"
+    }
+  ],
+  "enrolledcourse": {
+    "2019-10-23": [
+      {
+        "year": "2019",
+        "term": 1,
+        "code": "1006243",
+        "name": {
+          "en": "Foundations of College English",
+          "th": "พื้นฐานภาษาอังกฤษระดับมหาวิทยาลัย 3"
+        },
+        "type": "Lect / LAB",
+        "section": 1,
+        "room": "C5 301",
+        "startAt": "9:00",
+        "endAt": "12:00",
+        "canceled": false
+      }
+    ],
+    "2019-10-24": [
+      {
+        "year": "2019",
+        "term": 1,
+        "code": "1006244",
+        "name": {
+          "en": "Foundations of College English 4 and long title",
+          "th": "พื้นฐานภาษาอังกฤษระดับมหาวิทยาลัย 4"
+        },
+        "type": "Lect / LAB",
+        "section": 1,
+        "room": "C5 301",
+        "startAt": "9:00",
+        "endAt": "12:00",
+        "canceled": true
+      }
+    ]
+  },
+  "examschedules": {
+    "midterm": [],
+    "final": []
+  }
+}
