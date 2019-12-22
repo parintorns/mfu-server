@@ -1,5 +1,5 @@
 {
-  "students": [
+  "login": [
     {
       "id": "6031006001",
       "userId": "6031006001",
@@ -15,7 +15,8 @@
         "en": "Active",
         "th": "ปัจจุบัน (ปกติ)"
       },
-      "avatar": "py8kq2yibN6gz1aaGok-o.jpg"
+      "avatar": "py8kq2yibN6gz1aaGok-o.jpg",
+      "usertype": 10
     },
     {
       "id": "6031006002",
@@ -32,12 +33,25 @@
         "en": "Active",
         "th": "ปัจจุบัน (ปกติ)"
       },
-      "avatar": "20190304054723ginr46.png"
+      "avatar": "20190304054723ginr46.png",
+      "usertype": 10
     }
   ],
-  "profiles": [
+  "profile": [
     {
       "id": "6031006001",
+      "firstname": {
+        "en": "Patchanan",
+        "th": "พัศชนันท์"
+      },
+      "lastname": {
+        "en": "Jiajirachote",
+        "th": "เจียจิรโชติ"
+      },
+      "status": {
+        "en": "Active",
+        "th": "ปัจจุบัน (ปกติ)"
+      },
       "school": {
         "en": "School of Liberal Arts",
         "th": "ศิลปศาสตร์"
@@ -53,6 +67,18 @@
     },
     {
       "id": "6031006002",
+      "firstname": {
+        "en": "JIRADAPA",
+        "th": "จิรดาภา"
+      },
+      "lastname": {
+        "en": "INTAJAK",
+        "th": " อินทจักร"
+      },
+      "status": {
+        "en": "Active",
+        "th": "ปัจจุบัน (ปกติ)"
+      },
       "school": {
         "en": "School of Liberal Arts",
         "th": "ศิลปศาสตร์"
@@ -78,44 +104,236 @@
       "src": "/news/news_3.png"
     }
   ],
-  "enrolledcourse": {
-    "2019-12-23": [
-      {
-        "year": "2019",
-        "term": 1,
-        "code": "1006243",
-        "name": {
-          "en": "Foundations of College English",
-          "th": "พื้นฐานภาษาอังกฤษระดับมหาวิทยาลัย 3"
+  "enrolledcourse": [
+    {
+      "id": "6031006001",
+      "lang": "en",
+      "year": "2019",
+      "term": 1,
+      "code": "1006243",
+      "name": "Foundations of College English 3",
+      "type": "Lect / LAB",
+      "section": 1,
+      "classDate": "2019-12-23",
+      "room": "C5 301",
+      "startAt": "9:00",
+      "endAt": "12:00",
+      "canceled": false
+    },
+    {
+      "id": "6031006001",
+      "lang": "en",
+      "year": "2019",
+      "term": 1,
+      "code": "1006244",
+      "name": "Foundations of College English 4",
+      "type": "Lect / LAB",
+      "section": 1,
+      "classDate": "2019-12-24",
+      "room": "C5 301",
+      "startAt": "9:00",
+      "endAt": "12:00",
+      "canceled": true
+    },
+    {
+      "id": "6031006001",
+      "lang": "th",
+      "year": "2019",
+      "term": 1,
+      "code": "1006243",
+      "name": "พื้นฐานภาษาอังกฤษระดับมหาวิทยาลัย 3",
+      "type": "Lect / LAB",
+      "section": 1,
+      "classDate": "2019-12-23",
+      "room": "C5 301",
+      "startAt": "9:00",
+      "endAt": "12:00",
+      "canceled": false
+    },
+    {
+      "id": "6031006001",
+      "lang": "th",
+      "year": "2019",
+      "term": 1,
+      "code": "1006244",
+      "name": "พื้นฐานภาษาอังกฤษระดับมหาวิทยาลัย 4",
+      "type": "Lect / LAB",
+      "section": 1,
+      "classDate": "2019-12-24",
+      "room": "C5 301",
+      "startAt": "9:00",
+      "endAt": "12:00",
+      "canceled": true
+    }
+  ],
+  "examschedules": [
+    {
+      "id": "6031006001",
+      "lang": "en",
+      "type": "midterm",
+      "examDate": "2019-10-24",
+      "data": [
+        {
+          "startAt": "08:00",
+          "endAt": "11:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006241",
+          "subjectName": "English Reading and Writing 1",
+          "section": 1,
+          "credit": "3(3-0-6)"
         },
-        "type": "Lect / LAB",
-        "section": 1,
-        "room": "C5 301",
-        "startAt": "9:00",
-        "endAt": "12:00",
-        "canceled": false
-      }
-    ],
-    "2019-12-24": [
-      {
-        "year": "2019",
-        "term": 1,
-        "code": "1006244",
-        "name": {
-          "en": "Foundations of College English 4 and long title",
-          "th": "พื้นฐานภาษาอังกฤษระดับมหาวิทยาลัย 4"
+        {
+          "startAt": "13:00",
+          "endAt": "14:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006242",
+          "subjectName": "English Reading and Writing 2",
+          "section": 1,
+          "credit": "3(3-0-6)"
         },
-        "type": "Lect / LAB",
-        "section": 1,
-        "room": "C5 301",
-        "startAt": "9:00",
-        "endAt": "12:00",
-        "canceled": true
-      }
-    ]
-  },
-  "examschedules": {
-    "midterm": [],
-    "final": []
-  }
+        {
+          "startAt": "14:30",
+          "endAt": "15:30",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006243",
+          "subjectName": "English Reading and Writing 3",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        }
+      ]
+    },
+    {
+      "id": "6031006001",
+      "lang": "en",
+      "type": "midterm",
+      "examDate": "2019-10-25",
+      "data": [
+        {
+          "startAt": "08:00",
+          "endAt": "11:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006244",
+          "subjectName": "English Reading and Writing 4",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        },
+        {
+          "startAt": "13:00",
+          "endAt": "14:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006245",
+          "subjectName": "English Reading and Writing 5",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        }
+      ]
+    },
+    {
+      "id": "6031006001",
+      "lang": "th",
+      "type": "midterm",
+      "examDate": "2019-10-24",
+      "data": [
+        {
+          "startAt": "08:00",
+          "endAt": "11:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006241",
+          "subjectName": "การอ่านและการเขียนภาษาอังกฤษ 1",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        },
+        {
+          "startAt": "13:00",
+          "endAt": "14:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006242",
+          "subjectName": "การอ่านและการเขียนภาษาอังกฤษ 2",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        },
+        {
+          "startAt": "14:30",
+          "endAt": "15:30",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006243",
+          "subjectName": "การอ่านและการเขียนภาษาอังกฤษ 3",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        }
+      ]
+    },
+    {
+      "id": "6031006001",
+      "lang": "th",
+      "type": "midterm",
+      "examDate": "2019-10-25",
+      "data": [
+        {
+          "startAt": "08:00",
+          "endAt": "11:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006244",
+          "subjectName": "การอ่านและการเขียนภาษาอังกฤษ 4",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        },
+        {
+          "startAt": "13:00",
+          "endAt": "14:00",
+          "seat": "3",
+          "room": "C2 215",
+          "subjectId": "1006245",
+          "subjectName": "การอ่านและการเขียนภาษาอังกฤษ 5",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        }
+      ]
+    },
+    {
+      "id": "6031006001",
+      "lang": "en",
+      "type": "final",
+      "examDate": "2020-03-15",
+      "data": [
+        {
+          "startAt": "08:00",
+          "endAt": "11:00",
+          "seat": "9",
+          "room": "C2 216",
+          "subjectId": "1006244",
+          "subjectName": "English Reading and Writing 2",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        }
+      ]
+    },
+    {
+      "id": "6031006001",
+      "lang": "th",
+      "type": "final",
+      "examDate": "2020-03-15",
+      "data": [
+        {
+          "startAt": "08:00",
+          "endAt": "11:00",
+          "seat": "9",
+          "room": "C2 216",
+          "subjectId": "1006244",
+          "subjectName": "การอ่านและการเขียนภาษาอังกฤษ 2",
+          "section": 1,
+          "credit": "3(3-0-6)"
+        }
+      ]
+    }
+  ]
 }
